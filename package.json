@@ -1,0 +1,22 @@
+{
+  "name": "nodescraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "test": "index.js"
+  },
+  "scripts": {
+    "watch": "nodemon run.js $*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0",
+    "watch": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
