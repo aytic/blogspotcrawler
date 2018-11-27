@@ -33,6 +33,8 @@ function crawlPosts(postURL) {
           }, {});
         for (let image in imageTags) {
           let { src } = imageTags[image].attribs;
+          const regex = /\/s.*\//gi;
+          src = src.replace(regex, "/s4000/");
           downloadFile(src, downloadPath, function(p) {
             console.log(
               `Downloading image from ${src} to ${downloadPath}: `,
