@@ -1,6 +1,6 @@
 {
   "name": "nodescraper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "watch": {
@@ -17,6 +17,6 @@
     "watch": "^1.0.1"
   },
   "devDependencies": {
-    "nodemon": "1.19.1"
+    "nodemon": "1.19.2"
   }
 }
